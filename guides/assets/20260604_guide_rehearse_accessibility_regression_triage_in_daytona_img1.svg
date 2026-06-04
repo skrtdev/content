@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Accessibility regression triage in a Daytona sandbox</title>
+  <desc id="desc">Omni Engineer fixes a failing accessibility demo, Claude Engineer reviews the exact patch, and pytest verifies the result inside one Daytona sandbox.</desc>
+  <rect width="1200" height="675" fill="#f7fafc"/>
+  <rect x="52" y="54" width="1096" height="567" rx="14" fill="#ffffff" stroke="#111827" stroke-width="3"/>
+  <text x="92" y="112" fill="#111827" font-family="Arial, sans-serif" font-size="34" font-weight="700">Daytona sandbox: a11y-triage-lab</text>
+  <text x="92" y="151" fill="#4b5563" font-family="Arial, sans-serif" font-size="20">One isolated workspace for reproduction, agent repair, review, and verification</text>
+
+  <rect x="95" y="228" width="250" height="145" rx="10" fill="#dbeafe" stroke="#1d4ed8" stroke-width="3"/>
+  <text x="220" y="280" text-anchor="middle" fill="#1e3a8a" font-family="Arial, sans-serif" font-size="26" font-weight="700">Regression branch</text>
+  <text x="220" y="318" text-anchor="middle" fill="#1e40af" font-family="Arial, sans-serif" font-size="18">Missing label, live</text>
+  <text x="220" y="344" text-anchor="middle" fill="#1e40af" font-family="Arial, sans-serif" font-size="18">region, and button name</text>
+
+  <rect x="475" y="228" width="250" height="145" rx="10" fill="#dcfce7" stroke="#15803d" stroke-width="3"/>
+  <text x="600" y="280" text-anchor="middle" fill="#14532d" font-family="Arial, sans-serif" font-size="26" font-weight="700">Omni Engineer</text>
+  <text x="600" y="318" text-anchor="middle" fill="#166534" font-family="Arial, sans-serif" font-size="18">Applies the smallest</text>
+  <text x="600" y="344" text-anchor="middle" fill="#166534" font-family="Arial, sans-serif" font-size="18">semantic markup fix</text>
+
+  <rect x="855" y="228" width="250" height="145" rx="10" fill="#fef3c7" stroke="#b45309" stroke-width="3"/>
+  <text x="980" y="280" text-anchor="middle" fill="#78350f" font-family="Arial, sans-serif" font-size="26" font-weight="700">Claude Engineer</text>
+  <text x="980" y="318" text-anchor="middle" fill="#92400e" font-family="Arial, sans-serif" font-size="18">Reviews keyboard and</text>
+  <text x="980" y="344" text-anchor="middle" fill="#92400e" font-family="Arial, sans-serif" font-size="18">assistive tech risks</text>
+
+  <line x1="345" y1="300" x2="455" y2="300" stroke="#111827" stroke-width="4"/>
+  <polygon points="455,300 438,290 438,310" fill="#111827"/>
+  <line x1="725" y1="300" x2="835" y2="300" stroke="#111827" stroke-width="4"/>
+  <polygon points="835,300 818,290 818,310" fill="#111827"/>
+
+  <rect x="366" y="458" width="468" height="94" rx="10" fill="#fce7f3" stroke="#be185d" stroke-width="3"/>
+  <text x="600" y="500" text-anchor="middle" fill="#831843" font-family="Arial, sans-serif" font-size="26" font-weight="700">pytest accessibility checks</text>
+  <text x="600" y="532" text-anchor="middle" fill="#9d174d" font-family="Arial, sans-serif" font-size="18">Labels, accessible names, live regions, and pressed state</text>
+
+  <line x1="600" y1="373" x2="600" y2="438" stroke="#111827" stroke-width="4"/>
+  <polygon points="600,438 590,421 610,421" fill="#111827"/>
+</svg>
